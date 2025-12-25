@@ -1,0 +1,63 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_light">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="24dp">
+
+        <TextView
+            android:text="GUIAZAPP"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="@color/blue_dark"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:text="Encontre empresas e conecte-se direto pelo WhatsApp"
+            android:textColor="@color/gray"
+            android:gravity="center"
+            android:layout_marginBottom="24dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Buscar empresa ou serviço"
+            android:padding="16dp"
+            android:background="@android:drawable/edit_text"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BUSCAR"
+            android:textColor="@color/white"
+            android:background="@color/blue_primary"
+            android:layout_marginTop="16dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blue_primary"
+            android:padding="24dp"
+            android:layout_marginTop="32dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:text="Você é empresário?"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:text="Cadastre sua empresa gratuitamente"
+                android:textColor="@color/white"
+                android:layout_marginTop="8dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
