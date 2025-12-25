@@ -1,0 +1,2 @@
+rootProject.name = "GuiaZapp"
+include ':app'
